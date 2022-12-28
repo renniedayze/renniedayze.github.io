@@ -1,0 +1,199 @@
+/*h1:font-family: 'Anton', sans-serif;*/
+@font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/anton/v23/1Ptgg87LROyAm3Kz-C8CSKlv.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /*<p>font-family: 'Shadows Into Light', cursive;*/
+  @font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/shadowsintolight/v15/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD55TecYQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /*<h2> font-family: 'Poiret One', cursive;*/
+  @font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poiretone/v14/UqyVK80NJXN4zfRgbdfbo55cV-UyZKA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  section {
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+  }
+  
+ h2 {
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #e6aa12;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    text-align:center;
+}
+
+ h3 {
+    font-family: "Poiret One",cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .colors p {
+    display: inline-block;
+    margin-left: 180px;
+    
+  }
+  
+  .black {
+    box-sizing:border-box;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    width: 320px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .grey {
+    border: 1px solid grey;
+    border-radius: 15px;
+    color: white;
+    background-color: grey;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .gold {
+    border: 1px solid #e6aa12;
+    border-radius: 15px;
+    color: white;
+    background-color: #e6aa12;
+    width: 300px;
+    text-align:center;
+    padding: 10px;
+  }
+
+  .red {
+    border: 1px solid #91030a;
+    border-radius: 15px;
+    color: white;
+    background-color: #91030a;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .anton-uppercase{
+    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+
+  .anton-bold {
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #e6aa12;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    text-align:center;
+  }
+
+  .anton-normal {
+    font-family: "Anton", sans-serif;
+    font-weight: thin;
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+  }
+
+  .poiret-uppercase {
+    font-family: "Poiret One", cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 900px;
+    margin-left: 160px;
+  }
+
+  .poiret-italic {
+    font-family: "Poiret One", cursive;
+    font-size: 30px;
+    text-align: center;
+    font-style:italic;
+  }
+
+  .poiret-underline {
+    font-family: "Poiret One", cursive;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #91030a;
+  }
+
+  .shadow-normal {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .shadow-boldunderline {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .shadow-italic {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+  }
